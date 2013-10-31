@@ -1,0 +1,14 @@
+str = "ns"
+print str.zfill(40);
+
+str = "niisama"
+print str.upper();
+print str.title();
+print str.strip( 'na' );
+
+str = "Return a list of the list"
+print str.startswith('of', 1)
+print str.split()
+print str.rstrip('list')
+print str.rjust(50 ,'0')
+print str.rindex()
