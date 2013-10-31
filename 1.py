@@ -3,12 +3,66 @@ perekonnanimi = raw_input('Mis su perekonnanimi on:')
 
 if eesnimi == "Jaan-Edgar" and perekonnanimi == 'Urm':
 	print "Sina, v2ike v22nik, oled mulle v6lgu 15 Eurot."
+	vastus = raw_input('Kas sa maksad 2ra enne 5. Nov?:')
+	if vastus == "Jah":
+		print "Okey, tore seda kuulda"
+		print "....2222222222.....222222222"
+		print "..222222222222222......222222"
+		print "222222222222222222.......22222"
+		print "2222222222222222222....22222"
+		print "2222222222222222222 ..22222.."
+		print "...22222222222222222222222.."
+		print ".....22222222222222222222.."
+		print "........2222222222222222 .."
+		print "..........2222222222222.."
+		print "............2222222222.."
+		print ".............22222222.."
+		print "..............222222.."
+		print "...............2222.."
+		print "................22.."
+		print ".................2. "
+	else:
+		print '''
+ 		    `"-._                    
+                       `. "-._                
+                         T.   "-.             
+                          $$p.   "-.          
+                          $$$$b.    `,        
+                       .g$$$$$$$b    ;        
+                     .d$$$$$$$$$$;   ;        
+                  __d$$$$$$P""^T$$   :        
+                .d$$$$P^^""___       :        
+               d$P'__..gg$$$$$$$$$$; ;        
+              d$$ :$$$$$$$$$$$$$$$$;  ;       
+             :$$; $$$$$$$$$$$$$$$$P  :$       
+             $$$  $$$$$$$$$$$$$$$$b  $$       
+            :$$$ :$$$$$$$$$$$$$$$$$; $$;      
+            $$$; $$$$$$$$$$$$$$$$$$; $$; 
+          :$$$  $$$$$$$$$^$$$$$$$$$ :$$      
+          $$$; :$$$p__gP' `Tp__g$$$ :$$      
+         :$$$  $$P`T$P' .$. `T$P'T$; $$;     
+         $$$; :$$;     :P^T;     :$; $$;     
+        :$$$  $$$$-.           .-$$$ :$$     
+        $$$$ :$$$$; \   T$P   / :$$$  $$     
+       :$$$; $$$$$$  ; b:$;d :  $$$$; $$;    
+       $$$$; $$$$$$; : T T T ; :$$$$$ :$$    
+    .g$$$$$  :$$$$$$  ;' | ':  $$$$$$  T$b   
+ .g$$$$$$$$   $$$$$$b :     ; d$$$$$;   `Tb  
+:$$$$$$$$$;   :$$$$$$$;     :$$$$$$P       \ 
+:$$$$$$$$$;    T$$$$$$$p._.g$$$$$$P         ;
+$$$P^^T$$$$p.   `T$$$$$$$$$$$$$$P'     _/`. :
+       `T$$$$$b.  `T$$$$$$$$$$P'    .g$P   \;
+         `T$$$$$b.  "^T$$$$P^"     d$P'      
+           `T$$$$$b.             .dP'        
+             "^T$$$$b.        .g$P'          
+                "^T$$$b    .g$P^"            
+                   "^T$b.g$P^"               
+                      "^$^"                  
+
+'''
+      
+		print "Killin sinu 2ra kui ei maksa"
+
 else:
 	print "Sinu nimi on " + eesnimi + " " + perekonnanimi
 
-vastus = raw_input('Kas sa maksad 2ra enne 5. Nov?:')
-
-if vastus == "Jah" or "ja" or "jh":
-	print "Okey, tore seda kuulda"
-else:
-	print "Killin sinu 2ra kui ei maksa"
