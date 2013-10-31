@@ -4,5 +4,5 @@ perekonnanimi = raw_input('Mis su perekonnanimi on:')
 print eesnimi.upper();
 print perekonnanimi.lower();
 print eesnimi.capitalize();
-print perekonnanimi.center();
-print eesnimi.islower();
+print perekonnanimi.split();
+print eesnimi.swapcase();
