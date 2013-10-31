@@ -1,0 +1,26 @@
+text = "lauri"
+print "", text.capitalize()
+
+text = "[ Pealkiri ]"
+print "", text.center(50, "=")
+
+text = "Pealkiri E-kiri Kirikakar"
+print "", text.count("kiri")
+
+filename = raw_input(" Sisesta failinimi: ")
+print "", filename.endswith(".py")
+
+text = "Lorem ipsun dolor sit amet, consectetur adipisci"
+print "", text.find("sit")
+
+klass = "anton algis madis anna"
+if "algis" in klass:
+print "", "algis t2na ei puudu"
+
+text = "abc1"
+print text.isalnum()
+print text.isalpha()
+print text.isdigit()
+print text.islower()
+print text.isspace()
+print text.istitle()
