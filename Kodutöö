@@ -1,0 +1,13 @@
+eesnimi = raw_input('Mis su nimi on:')
+perekonnanimi = raw_input('Mis su perekonnanimi on:')
+
+eesnimi = eesnimi.upper()
+perekonnanimi = perekonnanimi.upper()
+
+print eesnimi.upper();
+print perekonnanimi.lower();
+
+if eesnimi == "Jaan-Edgar" and prekonnanimi == 'Urm':
+	print "Sina, v2ike v22nik, oled mulle v6lgu 25 Eurot."
+else:
+	print "Sinu nimi on " + eesnimi + " " + perekonnanimi
