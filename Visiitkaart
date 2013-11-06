@@ -4,7 +4,7 @@ amet = raw_input('Sisestage oma ameti nimetus: ')
 telf = raw_input('Sisestage oma telf nr: ')
 email = raw_input('Sisestage oma email: ')
 
-text = " "
+text = "Visiitkaart"
 print "/" + text.center(40, "=") + "\ "
 
 print "|" + text.rjust(40, ' ') + "|"
