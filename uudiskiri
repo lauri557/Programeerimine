@@ -1,0 +1,40 @@
+p2is = "p2is"
+print "=" + p2is.center(40, "=") + "="
+
+tyhi = ""
+print tyhi
+
+tiitel = "Pealkiri1"
+print "" + tiitel.center(42, " ")
+
+print tyhi
+
+loik = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+loik2 = "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+loik3 = "cccccccccccccccccccccc"
+
+print loik
+
+print loik2
+
+print loik3
+
+tiitel = "Tiitelleht"
+
+print tyhi
+
+print tyhi
+
+tiitel2 = "Pealkiri2"
+print "" + tiitel2.center(42, " ")
+
+print tyhi
+
+print loik2
+
+print loik3
+
+print tyhi
+
+jalus = "jalus"
+print "=" + jalus.center(40, "=") + "="
