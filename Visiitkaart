@@ -1,0 +1,24 @@
+firma = raw_input('Sisestage firma nimi: ')
+nimi = raw_input('Sisestage t2isnimi: ')
+amet = raw_input('Sisestage oma ameti nimetus: ')
+telf = raw_input('Sisestage oma telf nr: ')
+email = raw_input('Sisestage oma email: ')
+
+text = " "
+print "/" + text.center(40, "=") + "\ "
+
+print "|" + text.rjust(40, ' ') + "|"
+
+print "|" + firma.center(40, ' ') + "|"
+
+print "|" + nimi.center(40, ' ') + "|"
+
+print "|" + amet.center(40, ' ') + "|"
+
+print "|" + telf.center(40, ' ') + "|"
+
+print "|" + email.center(40, ' ') + "|"
+
+print "|" + text.center(40, ' ') + "|"
+
+print "\=" + text.center(39, "=") + "/"
