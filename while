@@ -1,0 +1,64 @@
+#f = 3
+
+#while f < 8:
+#	print f,":",f*2+1
+#	f = f+1
+
+#ns = 1
+#sn = 11
+
+
+#while ns < sn:
+#	print ns
+#	ns = ns+1
+
+#import random
+
+#a = int(raw_input("Sisesta 1. arv: "))
+#b = int(raw_input("Sisesta 2. arv: "))
+#c = int(raw_input("Mitu numbrit soovite?: "))
+#f = 0
+#summa = 0
+#while f < c:
+	#summa = summa + random.randint(a, b)
+	#f = f+1
+	#import time
+	#time.sleep(0.1)
+	#from random import randint
+	#print randint(a,b)
+#keskmine = float(summa) / c
+#print "Praktiline keskmine ={:.2f}".format(keskmine)
+
+'''
+a = 1
+b = 1
+c = 5
+
+while a <= c:
+	b = b*a
+	a = a+1
+	print b
+'''
+
+import sys
+
+n = int(raw_input("mitu rida: "))
+
+line = ""
+y = 1
+while y<=n:
+	line = line + "#"
+	print line
+	y = y + 1
+
+
+"""
+a = 1 
+b = "#"
+c = "*"
+d = 5
+while a <= d:
+	print b
+	a = a+1
+	b = b + "#" 
+"""	
