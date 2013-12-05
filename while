@@ -61,4 +61,15 @@ while a <= d:
 	print b
 	a = a+1
 	b = b + "#" 
-"""	
+"""
+
+'''
+import random
+n = int(raw_input("mitu rida: "))
+y = 1
+
+while y <= n:
+	y = y + 1
+	x = "#" * random.randint(1,15)
+	print x
+'''
