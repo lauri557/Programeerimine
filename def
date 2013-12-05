@@ -1,0 +1,36 @@
+'''
+def a():
+	print "tere"
+a()
+
+def b(meeter, yhik):
+	print "m66t " + str(meeter) + " " + yhik
+
+b(5, "m")
+b(9, "kg")
+'''
+
+'''
+def arvutus(x):
+	return x
+
+a = arvutus(17)
+print a
+
+def arvutus2(x, y):
+	z = x * y
+	return z
+print arvutus2(3,4)
+'''
+
+'''
+def otsus(vanus):
+	if vanus < 20:
+		return "noor"
+	elif vanus < 50:
+		return "keskiga"
+	else:
+		return "pensiokas"
+	print "see ongi sinu elu :)"
+print otsus(60)
+'''
